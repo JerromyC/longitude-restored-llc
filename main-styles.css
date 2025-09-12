@@ -1,0 +1,25 @@
+@import url(./styles/nav.css);
+@import url(./styles/home-page.css);
+
+:root {
+    --primary-color: #2C565C;
+    --primary-color_fifty-opacity: #2C565C80;
+    --primary-color_ten-opacity: #2C565C1A;
+    --secondary-color: #9EC9D0;
+    --aux-color: #F9A825;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+/* remove styles */
+a {
+    text-decoration: none;
+    color: none;
+}
