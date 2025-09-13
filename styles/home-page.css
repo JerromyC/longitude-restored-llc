@@ -111,9 +111,9 @@
 
 .intro span {
     color: var(--aux-color);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .intro h2 {
@@ -145,9 +145,9 @@
 
 .services span {
     color: var(--secondary-color);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .services h2 {
@@ -205,6 +205,8 @@
     color: var(--aux-color);
     align-self: flex-end;
     text-decoration: underline;
+        font-size: 1.25rem;
+    font-weight: 600;
 }
 
 /* \\//\\//\\/ - CTA SECTION - \\//\\//\\// */
@@ -249,8 +251,9 @@
 }
 
 .cta>span {
-    font-weight: 400;
+    font-size: 1.5rem;
     font-style: italic;
+    font-weight: 600;
 }
 
 .cta button {
@@ -312,9 +315,9 @@
 
 .about-wrapper span {
     color: var(--secondary-color);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .about-wrapper h2 {
@@ -346,6 +349,8 @@
     color: var(--aux-color);
     align-self: flex-start;
     text-decoration: underline;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 /* \\//\\//\\/ - WHY SECTION - \\//\\//\\// */
@@ -362,9 +367,9 @@
 
 .why>span {
     color: var(--aux-color);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .why h2 {
@@ -444,9 +449,9 @@
 
 .locations-info span {
     color: var(--secondary-color);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .locations-info h2 {
@@ -541,7 +546,7 @@
     color: var(--secondary-color);
     font-size: 1.5rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .gallery-tile h2 {
