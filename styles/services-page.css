@@ -72,7 +72,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary-color_thirty-opacity);
+    background-color: var(--primary-color_eighty-opacity);
     border: 5px solid var(--primary-color);
     border-radius: 12px;
     color: #fff;

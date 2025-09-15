@@ -5,6 +5,7 @@
 
 :root {
     --primary-color: #2C565C;
+    --primary-color_eighty-opacity: #2C565CCC;
     --primary-color_fifty-opacity: #2C565C80;
     --primary-color_thirty-opacity: #2C565C4D;
     --primary-color_ten-opacity: #2C565C1A;

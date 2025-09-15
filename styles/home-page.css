@@ -670,7 +670,7 @@ footer>span {
 
     /* \\//\\//\\/ - SERVICES SECTION - \\//\\//\\// */
     .services {
-        padding: 20px;
+        padding: 2rem!important;
     }
 
     .services-grid {
