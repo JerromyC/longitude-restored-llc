@@ -1,0 +1,37 @@
+
+
+
+.about-page .about-intro {
+    background-color: #fff;
+    
+}
+
+.about-page .about-intro h1 {
+        color: var(--primary-color);
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.about-page .about-intro p {
+    text-align: left;
+}
+
+.about-page .why-flexbox_tile {
+    width: 30%;
+    min-width: 300px;
+}
+
+.about-page .why h3 span {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.about-page .why img {
+    color: var(--primary-color);
+}
+
+.about-page .waves-top {
+    background-image: url(../assets/waves-top-primary.svg);
+}
