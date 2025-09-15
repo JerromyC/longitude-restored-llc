@@ -111,7 +111,7 @@
     }
 
     .services-page .services {
-        padding: 0px;
+        padding: 0px!important;
     }
 
     .services-page .services-grid>hr {
