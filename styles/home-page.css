@@ -665,6 +665,7 @@ footer>span {
 
     .intro p {
         min-width: 100%;
+        text-align: left;
     }
 
     /* \\//\\//\\/ - SERVICES SECTION - \\//\\//\\// */
