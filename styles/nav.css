@@ -88,10 +88,13 @@ nav {
 /* MOBILE NAV */
 /* Mobile nav base styles */
 .mobile-nav {
-    position: relative;
+    position: sticky;
+    top:0;
+    left: 0;
     width: 100%;
     background: #fff;
     border-bottom: 1px solid #eee;
+    z-index: 100;
 }
 
 .mobile-nav_header {
@@ -117,6 +120,7 @@ nav {
     border: none;
     cursor: pointer;
     color: var(--primary-color);
+    z-index: 1000;
 }
 
 /* Menu overlay */
@@ -140,6 +144,8 @@ nav {
 .mobile-nav_menu a {
     font-weight: bold;
     color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .mobile-nav_menu a:last-of-type {

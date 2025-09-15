@@ -639,10 +639,12 @@ footer>span {
         padding: 2rem;
         padding-bottom: 6rem;
         background-color: var(--primary-color_fifty-opacity);
+        min-height: 50%;
     }
 
     .hero-bottom {
         flex-direction: column;
+        margin-top: 0px;
     }
 
     .hero-bottom_tile {
@@ -683,7 +685,19 @@ footer>span {
 
         /* \\//\\//\\/ - CTA SECTION - \\//\\//\\// */
     .cta {
-        padding: 7rem 2rem;
+        padding: 8rem 2rem;
+    }
+
+    .cta h2 {
+        font-size: 3rem;
+    }
+
+    .cta h2 span {
+        font-size: 2rem;
+    }
+
+    .cta > span {
+        font-size: 10vw;
     }
 
     /* \\//\\//\\/ - ABOUT SECTION - \\//\\//\\// */
