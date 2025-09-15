@@ -670,7 +670,7 @@ footer>span {
 
     /* \\//\\//\\/ - SERVICES SECTION - \\//\\//\\// */
     .services {
-        padding: 2rem;
+        padding: 20px;
     }
 
     .services-grid {
@@ -736,6 +736,10 @@ footer>span {
     }
 
         /* \\//\\//\\/ - FOOTER SECTION - \\//\\//\\// */
+footer {
+    padding: 1rem;
+}
+
 .footer-inner {
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;

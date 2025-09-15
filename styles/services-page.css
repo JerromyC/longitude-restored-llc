@@ -72,7 +72,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary-color_fifty-opacity);
+    background-color: var(--primary-color_thirty-opacity);
     border: 5px solid var(--primary-color);
     border-radius: 12px;
     color: #fff;
@@ -107,6 +107,7 @@
 @media (max-width: 900px) {
     .services-page .intro h1 {
         font-size: 3rem;
+        text-align: left;
     }
 
     .services-page .services {
