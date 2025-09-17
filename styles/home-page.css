@@ -44,22 +44,6 @@
     font-weight: 300;
 }
 
-.hero button {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 10px 20px;
-    margin: 20px 0px;
-    color: var(--primary-color);
-    border-radius: 12px;
-    background-color: var(--aux-color);
-}
-
-.hero button:hover {
-    background-color: var(--primary-color);
-    color: var(--aux-color);
-}
-
 .hero-bottom {
     position: relative;
     display: flex;
@@ -616,6 +600,7 @@ footer h2 span {
     font-size: 1.25rem;
     font-weight: 300;
     color: #fff;
+    text-decoration: underline;
 }
 
 footer hr {

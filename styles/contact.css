@@ -1,0 +1,59 @@
+.contact-page .intro h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color_ten-opacity);
+    padding: 6rem;
+}
+
+.contact-form {
+    width: 40%;
+    min-width: 300px;
+    max-width: 700px;
+    border: 2px solid var(--aux-color);
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.contact-form .form-group input {
+    font-size: 16pt;
+    padding: 2px;
+}
+
+.contact-form .form-group label {
+        font-size: 14pt;
+
+}
+
+.contact-form .form-group label input {
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+    .form {
+    padding: 2rem;
+}
+
+.contact-form {
+    width: 100%;
+    min-width: none;
+    max-width: 700px;
+    padding: 1rem;
+}
+
+
+}
