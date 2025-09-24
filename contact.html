@@ -65,7 +65,14 @@
     </section>
 
     <section class="form ">
-        <form action="#" method="POST" class="contact-form shadow slide-in-left">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+            class="contact-form shadow slide-in-left">
+            <!-- Hidden input for Netlify form handling -->
+            <input type="hidden" name="form-name" value="contact">
+            <p style="display:none;">
+                <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
+            </p>
+
             <!-- Name -->
             <div class="form-group">
                 <label for="name">Full Name</label>
@@ -93,21 +100,12 @@
             <!-- Services checkboxes -->
             <fieldset class="form-group">
                 <legend>Services Needed</legend>
-                <label>
-                    <input type="checkbox" name="services[]" value="Water Damage"> Water Damage
-                </label>
-                <label>
-                    <input type="checkbox" name="services[]" value="Storm Recovery"> Storm Recovery
-                </label>
-                <label>
-                    <input type="checkbox" name="services[]" value="Mold Remediation"> Mold Remediation
-                </label>
-                <label>
-                    <input type="checkbox" name="services[]" value="Fire & Smoke Restoration"> Fire & Smoke Restoration
-                </label>
-                <label>
-                    <input type="checkbox" name="services[]" value="General Repairs"> General Repairs
-                </label>
+                <label><input type="checkbox" name="services[]" value="Water Damage"> Water Damage</label>
+                <label><input type="checkbox" name="services[]" value="Storm Recovery"> Storm Recovery</label>
+                <label><input type="checkbox" name="services[]" value="Mold Remediation"> Mold Remediation</label>
+                <label><input type="checkbox" name="services[]" value="Fire & Smoke Restoration"> Fire & Smoke
+                    Restoration</label>
+                <label><input type="checkbox" name="services[]" value="General Repairs"> General Repairs</label>
             </fieldset>
 
             <!-- Message -->
@@ -119,6 +117,7 @@
             <!-- Submit button -->
             <button type="submit" class="btn">Submit Request</button>
         </form>
+
 
     </section>
 
